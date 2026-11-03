@@ -1,0 +1,19 @@
+# 密钥与配置，严禁入库
+.env
+
+# Python
+__pycache__/
+*.pyc
+
+# 向量数据库（本地持久化数据）
+my_chroma_db/
+chroma_db/
+
+# 解析产物（可由 PDF 重新生成）
+processed/
+
+# 原始 PDF 资料（体积大且可能涉密）
+my_pdfs/
+
+# 截图等临时文件
+.screenshots/
